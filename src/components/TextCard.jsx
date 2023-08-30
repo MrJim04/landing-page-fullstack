@@ -4,7 +4,7 @@ function TextCard({text = 'Lorem ipsum dolor, sit amet consectetur adipisicing e
   return (
     <>
         <div className="bg-gray-900 rounded-sm">
-            <div className="text-gray-50 text-3xl text-justify m-5">{text}</div>
+            <div className="text-gray-50 text-xl md:text-3xl text-justify m-5">{text}</div>
         </div>
     </>
   )

@@ -5,7 +5,7 @@ function SlideCenteredText({slideText = 'Text'}) {
   return (
     <>
         <div  id="page" className="page-item">
-            <CenteredText text={slideText} mdSize="md:text-5xl"></CenteredText>
+            <CenteredText text={slideText} size="text-sm" mdSize="md:text-5xl"></CenteredText>
         </div>
     </>
   )
