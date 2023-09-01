@@ -1,9 +1,10 @@
 import React from 'react'
 
-function Label({text = "Label", background="bg-gray-800"}) {
+function Label({text = "Label", background, listKey}) {
+
   return (
     <>
-        <div className={background + " text-gray-50 font-bold text-center p-1 text-sm md:text-lg rounded-sm md:rounded-md"}>
+        <div className={`text-gray-50 font-bold text-center p-1 text-sm md:text-lg rounded-sm md:rounded-md`} key={listKey} style={{backgroundColor: background}}>
             {text}
         </div>
     </>

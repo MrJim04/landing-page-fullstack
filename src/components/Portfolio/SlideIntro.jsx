@@ -3,11 +3,13 @@
 import React from 'react'
 import { useState } from 'react'
 import TextCard from '../TextCard'
-import LandingSkills from '../LandingPage/LandingSkills'
 import MainButton from '../MainButton'
 import Message from '../Message'
+import ExportData from '../../../data/data';
 
 function SlideIntro() {
+
+  const introData = ExportData().content.introduction
 
   const [showMessage, setShowMessage] = useState(false)
 
@@ -24,7 +26,7 @@ function SlideIntro() {
     <>
         <div id="page" className="page-item">
             <div className="m-10 flex flex-col items-center justify-center md:flex-row gap-10 md:pt-20">
-                <TextCard text="Hi, I'm Jimwell Ibay, an IT professional with expertise in web technologies. I have a strong foundation in creating modern minimalist websites or web apps. I believe that I can contribute and gain skills and experience in your organization or company. Click the proceed button to check out my smaple projects."></TextCard>
+                <TextCard text={introData}></TextCard>
                 <div onClick={handleClick}>
                   <MainButton text="Proceed" ></MainButton>
                 </div>

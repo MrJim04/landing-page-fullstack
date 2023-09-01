@@ -2,15 +2,19 @@
 
 import React from 'react'
 import Typed from 'typed.js';
-import Label from './Label';
+import ExportData from '../../data/data';
 
 function NameTyper() {
+    
+    const data = ExportData()
+    const typedStrings = data.info.profession
+    typedStrings.unshift(data.info.name)
 
     const el = React.useRef(null)
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Jimwell Ibay', 'Programmer', 'Web Developer'],
+      strings: typedStrings,
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,

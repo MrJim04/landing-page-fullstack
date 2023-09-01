@@ -4,8 +4,11 @@ import React, { useEffect } from 'react'
 import ScrollPage from 'scrollpage-js';
 import SlideCenteredText from './SlideCenteredText';
 import SlideIntro from './SlideIntro';
+import ExportData from '../../../data/data';
 
 function Slide() {
+
+    const mottoData = ExportData().content.motto
 
     useEffect(() => {
         const scrollPage = new ScrollPage("#main-page",{
@@ -20,8 +23,11 @@ function Slide() {
   return (
     <>
         <div  id="main-page">
-            <SlideCenteredText slideText="I will make your business accessible digitally"></SlideCenteredText>
-            <SlideCenteredText slideText="Tell me what the problem and I will fix the problem"></SlideCenteredText>
+            {
+                mottoData.map((item) => (
+                    <SlideCenteredText slideText={item}></SlideCenteredText>
+                ))
+            }
             <SlideIntro></SlideIntro>
         </div>
     </>

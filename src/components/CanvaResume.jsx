@@ -40,9 +40,7 @@ function CanvaResume() {
           target="_blank"
           rel="noopener"
         >
-          Resume
-        </a>{" "}
-        of Jimwell Ibay
+        </a>
     </>
   )
 }
