@@ -24,8 +24,8 @@ function Slide() {
     <>
         <div  id="main-page">
             {
-                mottoData.map((item) => (
-                    <SlideCenteredText slideText={item}></SlideCenteredText>
+                mottoData.map((item, index) => (
+                    <SlideCenteredText slideText={item} key={index}></SlideCenteredText>
                 ))
             }
             <SlideIntro></SlideIntro>
