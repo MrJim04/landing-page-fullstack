@@ -1,17 +1,17 @@
 const data = {
     "info": {
         "name": "Jimwell Ibay",
-        "profession": ["Programmer", "Web Developer"],
-        "skills": ["JavaScript", "Python", "Next.js", "Django", "React", "Bootsrap", "Tailwind", "soon..."]
+        "profession": ["Programmer", "IT Professional"],
+        "skills": ["JavaScript", "Python", "Java", "soon..."]
     },
 
     "content": {
-        "introduction": "Hi, I'm Jimwell Ibay, an IT professional with expertise in web technologies. I have a strong foundation in creating modern minimalist websites or web apps. I believe that I can contribute and gain skills and experience in your organization or company. Click the proceed button to check out my sample projects.",
+        "introduction": "Hi, I'm Jimwell Ibay, an IT professional expertise in web application development. I have a strong foundation in creating modern and minimalist web apps. I believe that I can contribute and gain skills and experience in your organization or company. Click the proceed button to check out my sample projects.",
         "motto": ["I will make you accessible digitally", "Tell me what the problem and I will fix the problem"]
     },
 
     "color": {
-        "skills": ["#eab308", "#155e75", "#18181b", "#166534", "#1e40af", "#6d28d9", "#312e81", "#292524"]
+        "skills": ["#eab308", "#155e75", "#ea580c", "#292524"]
     }
 }
 

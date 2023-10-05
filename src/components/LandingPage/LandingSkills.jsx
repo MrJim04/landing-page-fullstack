@@ -10,7 +10,7 @@ function LandingSkills() {
   return (
     <>
         <div className="container">
-              <div className="grid grid-cols-4 grid-rows-2 gap-1 md:gap-4 mb-20">
+              <div className="grid grid-cols-4 grid-rows-1 gap-1 md:gap-4 mb-20">
               {
                 skillsData.map((data, index) => (
                   <Label text={data} background={colorSkillsData[index]} key={index}></Label>
