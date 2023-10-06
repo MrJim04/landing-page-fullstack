@@ -1,7 +1,7 @@
 const data = {
     "info": {
         "name": "Jimwell Ibay",
-        "profession": ["Programmer", "IT Professional"],
+        "profession": ["Programmer", "Developer"],
         "skills": ["JavaScript", "Python", "Java", "soon..."]
     },
 
