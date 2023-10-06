@@ -2,7 +2,7 @@ const data = {
     "info": {
         "name": "Jimwell Ibay",
         "profession": ["Programmer", "IT Professional"],
-        "skills": ["JavaScript", "Python", "C++", "soon..."]
+        "skills": ["JavaScript", "Python", "Java", "soon..."]
     },
 
     "content": {
@@ -11,7 +11,7 @@ const data = {
     },
 
     "color": {
-        "skills": ["#eab308", "#155e75", "#1d4ed8", "#292524"]
+        "skills": ["#eab308", "#155e75", "#2563eb", "#292524"]
     }
 }
 
