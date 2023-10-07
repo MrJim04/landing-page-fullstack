@@ -4,7 +4,7 @@ import Card from '@/components/card'
 function page() {
   return (
     <>
-      <Card></Card>
+      
     </>
   )
 }
