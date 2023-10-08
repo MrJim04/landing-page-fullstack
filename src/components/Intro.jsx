@@ -1,12 +1,12 @@
 import React from 'react'
 import LinkButton from './LinkButton'
-import Hgroup from './Hgroup'
+import HeaderGroup from './HeaderGroup'
 
 function Intro({buttonLink="#", introHeader, introSubHeader}) {
   return (
     <>
-        <header class="container">
-            <Hgroup header={introHeader} subHeader={introSubHeader}></Hgroup>
+        <header className="container">
+            <HeaderGroup header={introHeader} subHeader={introSubHeader}></HeaderGroup>
             <p>
                 <LinkButton name='Get started' link={buttonLink}></LinkButton>
             </p>

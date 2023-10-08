@@ -4,11 +4,10 @@ import Dropdown from './Dropdown'
 function Navbar({name="Name"}) {
   return (
     <>
-        <nav class="container-fluid">
+        <nav className="container-fluid">
           <ul>
             <li>
-              <a href="/" class="contrast" onclick="event.preventDefault()"
-                ><strong>{name}</strong></a>
+              <a href="/" className="contrast"><strong>{name}</strong></a>
             </li>
           </ul>
           <ul>

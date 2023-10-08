@@ -1,10 +1,10 @@
 import React from 'react'
-import Hgroup from './hgroup'
+import HeaderGroup from './HeaderGroup'
 
 function TextPost({postHeader="Post heading", postSubHeader="This is post sub heading"}) {
   return (
     <>
-        <Hgroup header={postHeader} subHeader={postSubHeader}></Hgroup>
+        <HeaderGroup header={postHeader} subHeader={postSubHeader}></HeaderGroup>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lobortis est vel
             velit bibendum ultrices. Sed aliquam tortor vel odio fermentum ullamcorper eu vitae

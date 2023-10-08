@@ -4,7 +4,7 @@ function Dropdown({name="Name"}) {
   return (
     <>
         <details role="list" dir="rtl">
-            <summary aria-haspopup="listbox" role="link" class="contrast">{name}</summary>
+            <summary aria-haspopup="listbox" role="link" className="contrast">{name}</summary>
             <ul role="listbox">
                 <li><a href="#">Auto</a></li>
                 <li><a href="#">Light</a></li>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Hgroup({header="Header", subHeader="This is the introduction sub header"}) {
+function HeaderGroup({header="Header", subHeader="This is the introduction sub header"}) {
   return (
     <>
         <hgroup>
@@ -11,4 +11,4 @@ function Hgroup({header="Header", subHeader="This is the introduction sub header
   )
 }
 
-export default Hgroup
+export default HeaderGroup
