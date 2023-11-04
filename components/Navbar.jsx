@@ -1,21 +1,18 @@
 import React from 'react'
 import Dropdown from './Dropdown'
 
-function Navbar({name="Name"}) {
+function Navbar({text="Name", data}) {
   return (
     <>
-        <nav className="container-fluid">
+        <nav className="fixed container-fluid">
           <ul>
             <li>
-              <a href="/" className="contrast"><strong>{name}</strong></a>
+              <a href="/" className="contrast"><strong>{text}</strong></a>
             </li>
           </ul>
           <ul>
             <li>
-              <Dropdown></Dropdown>
-            </li>
-            <li>
-              <Dropdown></Dropdown>
+              <Dropdown text='Github'data={data}></Dropdown>
             </li>
           </ul>
         </nav>
