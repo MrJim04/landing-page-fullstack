@@ -1,7 +1,7 @@
 export async function fetchDataFromAPI(endpoint) {
 
     try {
-        const reponse = fetch(`http://localhost:3000/api/${endpoint}`)
+        const reponse = fetch(`https://ibayjimwell.vercel.app/api/${endpoint}`)
         const data = (await reponse).json();
         return data;
     } catch(e) {
