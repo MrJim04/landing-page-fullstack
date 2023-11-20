@@ -32,7 +32,7 @@ function index() {
                 return (
                   <div className='col-sm-6 col-md-4 col-lg-4 col-xl-4'>
                     <article>
-                        <AsidePost header={d.header} body={d.body} url={d.url} imageUrl="https://i.ibb.co/Lp9vP36/imgbin-laptop-ipad-computer-repair-technician-apple-png.png" key={d._id}></AsidePost>
+                        <AsidePost header={d.header} body={d.body} url={d.url} imageUrl={d.imageUrl} key={d._id}></AsidePost>
                     </article>
                   </div>
                 )

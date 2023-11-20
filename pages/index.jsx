@@ -50,16 +50,21 @@ function index() {
           </section>
           <aside>
           {data.map((d) => {
+              let limit = 0
               if (d.type == "project") {
-                return (
-                  <AsidePost 
-                  header={d.header} 
-                  body={d.body} 
-                  url={d.url} 
-                  imageUrl="https://i.ibb.co/Lp9vP36/imgbin-laptop-ipad-computer-repair-technician-apple-png.png"
-                  key={d._id}
-                  ></AsidePost>
-                )
+                if (limit >= 3) {
+                  return
+                } else {
+                  return (
+                    <AsidePost 
+                    header={d.header} 
+                    body={d.body} 
+                    url={d.url} 
+                    imageUrl={d.imageUrl}
+                    key={d._id}
+                    ></AsidePost>
+                  )
+                }
               }
             })}
           </aside>
