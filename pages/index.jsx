@@ -51,8 +51,8 @@ function index() {
           <aside>
           {data.map((d) => {
               let limit = 0
-              if (d.type == "project") {
-                if (limit >= 3) {
+              if (d.type == "importantProject") {
+                if (limit >= 5) {
                   return
                 } else {
                   return (
