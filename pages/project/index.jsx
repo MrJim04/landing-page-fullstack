@@ -28,7 +28,7 @@ function index() {
         <div className='container'>
         <div className='row'>
             {data.map((d) => {
-              if (d.type == "project") {
+              if (d.type == "project" || d.type == "importantProject") {
                 return (
                   <div className='col-sm-6 col-md-4 col-lg-4 col-xl-4'>
                     <article>
